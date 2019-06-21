@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gsep.myfin">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CalcTempoSCActivity"></activity>
+        <activity android:name=".CalcTaxaSCActivity" />
+        <activity android:name=".CalcNominalSCActivity" />
+        <activity android:name=".CalcDescSCActivity" />
+        <activity android:name=".DescontoCSMenuActivity" />
+        <activity android:name=".CalcTempoCActivity" />
+        <activity android:name=".CalcTaxaCActivity" />
+        <activity android:name=".CalcCapCActivity" />
+        <activity android:name=".CalcMontCActivity" />
+        <activity android:name=".JurosCMenuActivity" />
+        <activity android:name=".JurosMenuActivity" />
+        <activity android:name=".CalcTempoSActivity" />
+        <activity android:name=".CalcTaxaSActivity" />
+        <activity android:name=".CalcCapitalSActivity" />
+        <activity android:name=".CalcJurosSActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".JurosActivity" />
+        <activity android:name=".DescontoActivity" />
+    </application>
+
+</manifest>
